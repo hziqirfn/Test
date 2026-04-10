@@ -4,6 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: lightgoldenrodyellow;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+     form{
+        background-color: lightblue;
+        display: inline-block;
+     }   
+    </style>
   </head>
   <body>
     <form>
@@ -26,8 +44,8 @@
         </tr>
         <tr>
             <td>
-                <input type="submit" value="Submit" />
-                <input type="reset" value="Clear" />
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
             </td>
         </tr>
       </table>
